@@ -7,6 +7,23 @@ button {
   font-size: 18px;
 }
 
+.light {
+  background-color: aliceblue;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.dark {
+  background-color: #333333;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.defaultBackground {
+  background-color: #fff;
+  margin-top: 30px;
+}
+
 .noStyle {
   background-color: #fff;
   border: 2px solid lightgrey;

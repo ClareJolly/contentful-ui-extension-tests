@@ -11,7 +11,11 @@ const init =
           },
           field: {
             getValue: () => {
-              return "A value";
+              return {
+                cta: "cta test",
+                style: "primary",
+                bgcolor: "dark"
+              };
             },
             setValue: value => {
               console.log("api:setValue", value);
@@ -25,6 +29,7 @@ const init =
     : callback => {
         var cfExt = window.contentfulExtension || window.contentfulWidget;
         cfExt.init(function(_api) {
+          console.log(_api)
           api = _api;
           callback(_api);
         });

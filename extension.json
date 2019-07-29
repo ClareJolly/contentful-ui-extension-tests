@@ -1,6 +1,6 @@
 {
-  "id": "ButtonStyler",
-  "name": "ButtonStyler",
+  "id": "ButtonStyler2",
+  "name": "ButtonStyler2",
   "srcdoc": "./build/index.html",
-  "fieldTypes": ["Text"]
+  "fieldTypes": ["Object"]
 }
