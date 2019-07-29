@@ -1,0 +1,36 @@
+.update-button {
+  margin-top: 1em;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.noStyle {
+  background-color: #fff;
+  border: 2px solid lightgrey;
+  color: #000;
+}
+
+.primary {
+  background-color: #e60000;
+  color: #fff;
+}
+
+.secondary {
+  background-color: #000;
+  color: #fff;
+}
+
+.tertiary {
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+
+.quaternary {
+  background-color: #fff;
+  border: 2px solid #e60000;
+  color: #e60000;
+}

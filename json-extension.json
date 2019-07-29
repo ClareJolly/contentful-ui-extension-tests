@@ -1,0 +1,6 @@
+{
+  "id": "jsonEditor",
+  "name": "JSON Editor",
+  "srcdoc": "./jsonvalid.html",
+  "fieldTypes": ["Object"]
+}
