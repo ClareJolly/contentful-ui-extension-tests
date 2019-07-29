@@ -19,3 +19,11 @@ First go
   Hooking it up the the POC repo
 
   ![poc](./images/cf-e2e-poc.gif)
+
+  For reference, the WCS button form
+
+  ![wcs](./images/wcs-button.png)
+
+  Draft api added
+
+  ![draft](./images/draft-button-cf.gif)
