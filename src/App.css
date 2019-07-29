@@ -2,6 +2,23 @@
   margin-top: 1em;
 }
 
+#cta2 {
+  outline:none;
+  /* background: transparent; */
+  /* border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+  border-bottom: transparent !important; */
+  text-align: center;
+  padding: 10px;
+  /* border-bottom: 4px solid !important; */
+  /* font-weight: 200;
+  color: white; */
+  /* padding-left: 0; */
+  box-shadow: none;
+  font-size: 18px;
+}
+
 button {
   padding: 10px;
   font-size: 18px;

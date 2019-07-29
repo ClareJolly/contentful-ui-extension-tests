@@ -66,14 +66,14 @@ class App extends Component {
     return (
       <Fragment><div className="App">
         {/* val: {value} */}
-        <div>
+        {/* <div>
         Button text: <input
         name="cta"
           className="cf-form-input"
           type="text"
           value={value.cta}
           onChange={this.handleChangeValue}
-        /></div>
+        /></div> */}
         <div><br />Page background color: <br /><input name="bgcolor" type="radio" value='light' checked={value.bgcolor === 'light'} onChange={this.handleChangeValue}/> light<br />
         <input name="bgcolor" type="radio" value='dark' checked={value.bgcolor === 'dark'} onChange={this.handleChangeValue}/> dark</div>
         <div>
@@ -87,12 +87,21 @@ class App extends Component {
           <option value="quaternary">quaternary</option>
         </select></div><div 
         className={buttonPageClass}>
-        <button
+          <div>
+        Button text: <input
+        name="cta"
+        id="cta2"
+          className={buttonClassName}
+          type="text"
+          value={value.cta}
+          onChange={this.handleChangeValue}
+        /></div>
+        {/* <button
           className={buttonClassName}
           // onClick={this.handleClickUpdate}
         >
           {buttonCTA}
-        </button>
+        </button> */}
         </div>
         <div><button
           className="update-button cf-btn-primary"
